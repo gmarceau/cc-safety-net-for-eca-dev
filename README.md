@@ -13,7 +13,7 @@ The hook only blocks; allowed commands still go through ECA's normal approval.
 Requires Node.js 22.18+
 
 ```sh
-git clone <this-repo> ~/code/cc-safety-net-for-eca-dev
+git clone https://github.com/gmarceau/cc-safety-net-for-eca-dev.git ~/code/cc-safety-net-for-eca-dev
 cd ~/code/cc-safety-net-for-eca-dev
 npm install
 ```
