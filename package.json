@@ -1,0 +1,13 @@
+{
+  "name": "cc-safety-net-for-eca-dev",
+  "version": "1.0.0",
+  "description": "ECA preToolCall hook that delegates shell-command safety decisions to cc-safety-net",
+  "type": "module",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cc-safety-net": "^2.5.2"
+  }
+}
