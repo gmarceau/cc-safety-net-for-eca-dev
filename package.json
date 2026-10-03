@@ -2,12 +2,23 @@
   "name": "cc-safety-net-for-eca-dev",
   "version": "1.0.0",
   "description": "ECA preToolCall hook that delegates shell-command safety decisions to cc-safety-net",
-  "type": "module",
   "license": "ISC",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "rstest run",
+    "test:watch": "rstest",
+    "typecheck": "tsc -p tsconfig.json"
+  },
   "engines": {
-    "node": ">=18"
+    "node": ">=22.18"
   },
   "dependencies": {
     "cc-safety-net": "^2.5.2"
+  },
+  "devDependencies": {
+    "@rstest/core": "^0.12.3",
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
   }
 }
